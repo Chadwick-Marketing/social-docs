@@ -7,7 +7,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Help Center',
-  tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,8 +15,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'chadwick-marketing', // Usually your GitHub org/user name.
+  projectName: 'social-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -34,16 +33,32 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Chadwick-Marketing/social-docs/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        blog: false,
       }),
     ],
+  ],
+
+  plugins: [
+    async function loadTailwindCSS(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require('tailwindcss'));
+          postcssOptions.plugins.push(require('autoprefixer'));
+          return postcssOptions;
+        },
+      };
+    },
   ],
 
   themeConfig:
@@ -52,7 +67,7 @@ const config = {
       navbar: {
         title: 'Help Center',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'SocialWP logo',
           src: 'img/logo.webp',
         },
         items: [
@@ -62,15 +77,10 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -85,16 +95,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'WordPress.org',
+                href: 'https://wordpress.org/support/plugin/social-lite/',
               },
             ],
           },
@@ -102,13 +104,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Legal notice',
+                href: 'https://socialwp.io/legal',
+              },
+              {
+                label: 'Privacy policy',
+                href: 'https://socialwp.io/legal',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chadwick Marketing.`,
       },
       prism: {
         theme: lightCodeTheme,

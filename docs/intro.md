@@ -1,10 +1,11 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Social Docs
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Explore our guides and examples to quickly get started with Social.
 
 ## Getting Started
 
