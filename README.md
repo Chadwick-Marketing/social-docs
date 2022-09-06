@@ -1,3 +1,4 @@
-# github-xjqkmd
+# SocialWP Docs
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-xjqkmd)
+This repo contains the source for the docs of SocialWP on https://help.socialwp.io.
+
