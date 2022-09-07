@@ -8,8 +8,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(https://fonts.bunny.net/css?family=inter:500,600,700);
+
 /* You can override the default Infima variables here. */
+
 :root {
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-font-weight-bold: 600;
   --ifm-color-primary: #4648ff;
   --ifm-color-primary-dark: #2528ff;
   --ifm-color-primary-darker: #1518ff;
