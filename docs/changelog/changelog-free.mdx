@@ -1,0 +1,21 @@
+import { useState, useEffect } from 'react';
+
+# Changelog
+
+export const ChangelogData = () => {
+  const [changelog, setChangelog] = useState(null);
+  useEffect(() => {
+    const fetchChangelog = () => {
+      fetch('https://api.wordpress.org/plugins/info/1.0/social-lite.json')
+        .then((result) => result.json())
+        .then((data) => setChangelog(data.sections.changelog));
+    };
+    fetchChangelog();
+  }, []);
+  if (!changelog) {
+    return <h3>Fetching changelog...</h3>;
+  }
+  return <div dangerouslySetInnerHTML={{ __html: changelog }}></div>;
+};
+
+<ChangelogData />

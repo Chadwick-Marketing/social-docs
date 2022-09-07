@@ -52,7 +52,7 @@ export default function Homepage() {
                   use Social SDKs
                 </p>
               </div>
-              <div className="border border-gray-300 bg-white rounded-lg shadow p-5">
+              <div className="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module">
                 <h5>How Social works</h5>
                 <p>
                   Essential reading for a better understanding of how to best
