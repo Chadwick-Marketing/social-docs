@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Help Center',
+  title: 'Help Center - SocialWP',
   url: 'https://help.socialwp.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -74,7 +74,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '/category/getting-started-with-social',
             position: 'left',
             label: 'Guides',
           },
@@ -88,7 +88,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/category/getting-started-with-social',
               },
             ],
           },

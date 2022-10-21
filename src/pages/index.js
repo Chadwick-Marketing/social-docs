@@ -6,10 +6,7 @@ export default function Homepage() {
   const router = useHistory();
 
   return (
-    <Layout
-      description="Real-time audio & video SDKs, ready to launch 🚀"
-      wrapperClassName="homepage"
-    >
+    <Layout description="" wrapperClassName="homepage">
       <div className="pad">
         <div className="center homepage-content">
           <div
@@ -17,12 +14,11 @@ export default function Homepage() {
             className="md:w-8/12 w-11/12 m-auto border-0 border-b border-solid border-gray-300 mb-10 pb-10 pt-10"
           >
             <h2 className="text-3xl">Social Docs</h2>
-            <p>
-              Explore our guides and examples to integrate Social easily into
-              your apps.
-            </p>
+            <p>Explore our guides and examples to get started with Social.</p>
             <button
-              onClick={() => router.push('intro')}
+              onClick={() =>
+                router.push('/category/getting-started-with-social')
+              }
               type="button"
               class="text-white bg-social-blue cursor-pointer flex items-center border-none hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none "
             >
@@ -42,21 +38,19 @@ export default function Homepage() {
               </svg>
             </button>
           </div>
-          <div id="check" className="md:w-8/12 w-11/12 m-auto pt-10">
-            <h2 className="text-xl">Get to know Social</h2>
-            <div className="grid grid-cols-3 gap-5">
-              <div className="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module">
-                <h5>How Social works</h5>
+          <div id="check" className="md:w-8/12 w-11/12 m-auto py-10">
+            <h2 className="text-xl">Recommended articles</h2>
+            <div className="grid grid-cols-1 gap-5">
+              <div
+                onClick={() =>
+                  router.push('/tutorial-basics/install-social-on-your-site')
+                }
+                className="card padding--lg cursor-pointer cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
+              >
+                <h5>Installing Social on your site</h5>
                 <p>
-                  Essential reading for a better understanding of how to best
-                  use Social SDKs
-                </p>
-              </div>
-              <div className="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module">
-                <h5>How Social works</h5>
-                <p>
-                  Essential reading for a better understanding of how to best
-                  use Social SDKs
+                  In this tutorial, we'll show you how to install Social on your
+                  site.
                 </p>
               </div>
             </div>
