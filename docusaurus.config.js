@@ -60,6 +60,12 @@ const config = {
         },
       };
     },
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        // Options here
+      },
+    ],
   ],
 
   themeConfig:
@@ -98,10 +104,6 @@ const config = {
               {
                 label: 'WordPress.org',
                 href: 'https://wordpress.org/support/plugin/social-lite/',
-              },
-              {
-                label: 'Slack',
-                href: 'https://socialwp.slack.com/join/shared_invite/zt-1fyfch8q8-rQdx2cNbxiNDYseG2JLkMw#/shared-invite/email',
               },
             ],
           },

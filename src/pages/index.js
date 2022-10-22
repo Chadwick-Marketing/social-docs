@@ -53,6 +53,18 @@ export default function Homepage() {
                   site.
                 </p>
               </div>
+              <div
+                onClick={() =>
+                  router.push('/tutorial-basics/creating-your-first-link')
+                }
+                className="card padding--lg cursor-pointer cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
+              >
+                <h5>Creating your first link</h5>
+                <p>
+                  After installing Social, it's time to create your first link.
+                  We'll explain how.
+                </p>
+              </div>
             </div>
           </div>
         </div>
