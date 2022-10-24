@@ -11,7 +11,8 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: '/favicon.ico',
+  favicon:
+    'https://ik.imagekit.io/chadwickmarketing/social/icon_128_darker_Mm1-aP4zFzA6.png?ik-sdk-version=javascript-1.4.3&updatedAt=1627638775563',
   trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -61,9 +62,18 @@ const config = {
       };
     },
     [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
+      '@cmfcmf/docusaurus-search-local',
       {
         indexBlog: false,
+      },
+    ],
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
       },
     ],
   ],

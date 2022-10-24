@@ -33,6 +33,6 @@ With the donation link, you can collect money from your fans. This article cover
 
 :::info
 
-Predefined donation amounts are displayed as radio buttons on bio link, eliminating the need for users to manually enter how much they want to donate.
+Predefined donation amounts are displayed as radio buttons on your bio link, eliminating the need for users to manually enter how much they want to donate.
 
 :::info
