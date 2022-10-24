@@ -14,7 +14,7 @@ Deleting a link automatically removes the respective click data.
 
 ## Steps
 
-1. In the **"Links"** section of the Social Editor, click on the trash icon `🗑` located at the top right of a link.
+1. In the **`Links`** section of the Social Editor, click on the trash icon `🗑` located at the top right of a link.
 2. Click the `Delete` button to confirm that you want to remove the link. This action can't be undone.
 
 Your link is now removed.

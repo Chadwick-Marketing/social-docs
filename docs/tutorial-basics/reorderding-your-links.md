@@ -8,7 +8,7 @@ If you have many links on your bio link, it's a good idea to sort them. Social a
 
 ## Steps
 
-1. In the **"Links"** section of the Social Editor, click and hold on the vertical three dots `⋮` on the left side of a link.
+1. In the **`Links`** section of the Social Editor, click and hold on the vertical three dots `⋮` on the left side of a link.
 2. Move the link up or down to the desired location.
 
 The link automatically snaps in place.

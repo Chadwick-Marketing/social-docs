@@ -8,7 +8,7 @@ Now that you've downloaded and installed Social on your site, it's time to creat
 
 ## Steps
 
-1. In the **"Links"** section of the Social Editor, click `Add new link`.
+1. In the **`Links`** section of the Social Editor, click `Add new link`.
 2. Give your link a **title**. This title will appear on your bio link as a link button later on.
 3. Add a **URL** to your link.
 
