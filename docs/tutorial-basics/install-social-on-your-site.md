@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Installing Social
 
-This guide will help you to install Social on your website.
+This guide will help you  install Social on your website.
 
 :::info Info
 
