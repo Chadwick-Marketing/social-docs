@@ -55,7 +55,7 @@ export default function Homepage() {
               </div>
               <div
                 onClick={() =>
-                  router.push('/tutorial-basics/creating-your-first-link')
+                  router.push('/tutorial-basics/links/creating-your-first-link')
                 }
                 className="card padding--lg cursor-pointer cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
               >
@@ -67,7 +67,7 @@ export default function Homepage() {
               </div>
               <div
                 onClick={() =>
-                  router.push('/tutorial-basics/creating-your-first-link')
+                  router.push('tutorial-basics/sharing-your-bio-link-page')
                 }
                 className="card padding--lg cursor-pointer cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
               >
