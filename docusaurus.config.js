@@ -45,6 +45,7 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         blog: false,
+        sitemap: {},
       }),
     ],
   ],
