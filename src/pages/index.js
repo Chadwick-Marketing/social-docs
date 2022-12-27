@@ -38,7 +38,7 @@ export default function Homepage() {
               </svg>
             </button>
           </div>
-          <div id="check" className="md:w-8/12 w-11/12 m-auto py-14">
+          <div id="check" className="md:w-8/12 w-11/12 m-auto py-10">
             <h2 className="text-xl">Recommended articles</h2>
             <div className="grid grid-cols-1 gap-5">
               <div
