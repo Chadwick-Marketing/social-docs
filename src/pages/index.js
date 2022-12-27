@@ -38,7 +38,7 @@ export default function Homepage() {
               </svg>
             </button>
           </div>
-          <div id="check" className="md:w-8/12 w-11/12 m-auto py-10">
+          <div id="check" className="md:w-8/12 w-11/12 m-auto py-14">
             <h2 className="text-xl">Recommended articles</h2>
             <div className="grid grid-cols-1 gap-5">
               <div
@@ -63,6 +63,18 @@ export default function Homepage() {
                 <p>
                   After installing Social, it's time to create your first link.
                   We'll explain how.
+                </p>
+              </div>
+              <div
+                onClick={() =>
+                  router.push('/tutorial-basics/creating-your-first-link')
+                }
+                className="card padding--lg cursor-pointer cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
+              >
+                <h5>Sharing your bio link page</h5>
+                <p>
+                  Now that you've created your link in bio page, it's time to
+                  share it with your audience.
                 </p>
               </div>
             </div>
