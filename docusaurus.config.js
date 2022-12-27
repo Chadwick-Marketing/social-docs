@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Help Center - SocialWP',
+  title: 'Help Center | Social - Bio Link Creator',
   url: 'https://help.socialwp.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
