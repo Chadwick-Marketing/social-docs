@@ -40,6 +40,18 @@
   --aa-primary-color-rgb: 70, 108, 251;
 }
 
+/**
+* Footer
+*/
+
+.footer__bottom.text--center {
+  text-align: left;
+}
+
+/**
+* Search bar
+*/
+
 .aa-Autocomplete .aa-DetachedSearchButton {
   border-radius: var(--ifm-global-radius);
   border-color: #eee;
