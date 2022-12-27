@@ -45,7 +45,6 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         blog: false,
-        sitemap: {},
       }),
     ],
   ],
@@ -71,6 +70,7 @@ const config = {
     [
       '@docusaurus/plugin-sitemap',
       {
+        id: 'docs-socialwp',
         changefreq: 'weekly',
         priority: 0.5,
         ignorePatterns: ['/tags/**'],
