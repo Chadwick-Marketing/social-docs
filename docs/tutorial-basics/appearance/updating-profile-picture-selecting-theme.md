@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Updating profile image and theme
 
-To make your bio link more unique and reflect your personal brand, consider adding a profile image and selecting a pre-designed theme that complements your branding.
+To make your bio link stand out and show off your personal brand, you might want to add a profile picture and choose a theme that complements your branding. Here's how:
 
 ## How to update your profile image
 
@@ -40,11 +40,4 @@ With Social Pro, you can create your own theme and customize fonts, font colors,
 
 1. In the Social Editor, hit the `Settings` button in the top left navigation.
 2. Scroll to find the **theme** section.
-
-:::tip
-
-You can also click the dropdown under the navigation and select `Theme` from the list to quickly get to the **theme** section.
-
-:::tip
-
 3. Click on a theme to select it.

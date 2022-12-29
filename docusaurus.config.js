@@ -92,8 +92,16 @@ const config = {
           {
             type: 'doc',
             docId: '/category/getting-started-with-social',
+            activeBaseRegex: '^/$',
             position: 'left',
             label: 'Guides',
+          },
+          {
+            type: 'doc',
+            docId: 'faqs/how-can-i-contact-you',
+            activeBaseRegex: '^/$',
+            position: 'left',
+            label: 'Contact',
           },
         ],
       },
