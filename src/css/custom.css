@@ -46,6 +46,11 @@
 
 .footer__bottom.text--center {
   text-align: left;
+  font-size: 13px;
+}
+
+.footer .footer__link-item {
+  font-size: 13px;
 }
 
 /**

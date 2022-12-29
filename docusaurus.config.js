@@ -96,24 +96,21 @@ const config = {
             position: 'left',
             label: 'Guides',
           },
-          {
-            type: 'doc',
-            docId: 'faqs/how-can-i-contact-you',
-            activeBaseRegex: '^/$',
-            position: 'left',
-            label: 'Contact',
-          },
         ],
       },
       footer: {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Quicklinks',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Setup',
                 to: '/category/getting-started-with-social',
+              },
+              {
+                label: 'Contact',
+                to: '/contact',
               },
             ],
           },

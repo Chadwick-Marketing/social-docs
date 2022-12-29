@@ -1,8 +1,4 @@
 {
   "label": "Changelog",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "See what has changed in recent versions."
-  }
+  "position": 5
 }

@@ -43,7 +43,9 @@ export default function Homepage() {
             <div className="grid grid-cols-1 gap-5">
               <div
                 onClick={() =>
-                  router.push('/tutorial-basics/install-social-on-your-site')
+                  router.push(
+                    '/tutorial-basics/installation/install-social-on-your-site'
+                  )
                 }
                 className="card padding--lg cursor-pointer cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
               >
@@ -67,7 +69,9 @@ export default function Homepage() {
               </div>
               <div
                 onClick={() =>
-                  router.push('tutorial-basics/sharing-your-bio-link-page')
+                  router.push(
+                    'tutorial-basics/sharing/sharing-your-bio-link-page'
+                  )
                 }
                 className="card padding--lg cursor-pointer cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
               >

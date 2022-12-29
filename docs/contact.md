@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
+sidebar_label: Contact
 ---
 
-# How can I contact you?
+# Contact us
 
 :::info
 
