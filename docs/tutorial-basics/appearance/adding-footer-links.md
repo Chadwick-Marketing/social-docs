@@ -15,6 +15,6 @@ Footer links allow you to add additional links, such as legal text, to the foote
 
 :::tip
 
-You can reorder footer links by holding on the vertical three dots `⋮` on the left side of an icon.
+You can reorder footer links by holding on the vertical three dots `⋮` on the left side of a link.
 
 :::tip
