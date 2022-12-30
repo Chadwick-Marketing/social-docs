@@ -105,10 +105,6 @@ const config = {
             title: 'Quicklinks',
             items: [
               {
-                label: 'Setup',
-                to: '/category/getting-started-with-social',
-              },
-              {
                 label: 'Contact',
                 to: '/contact',
               },

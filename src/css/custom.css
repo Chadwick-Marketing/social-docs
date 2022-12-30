@@ -46,6 +46,7 @@
 
 .footer__bottom.text--center {
   text-align: left;
+  padding-top: 2.5em;
   font-size: 13px;
 }
 
@@ -58,7 +59,7 @@
 */
 
 .aa-Autocomplete .aa-DetachedSearchButton {
-  border-radius: var(--ifm-global-radius);
+  border-radius: calc(var(--ifm-global-radius) * 5);
   border-color: #eee;
 }
 
