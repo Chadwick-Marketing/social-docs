@@ -102,7 +102,7 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Quicklinks',
+            title: 'Links',
             items: [
               {
                 label: 'Contact',
