@@ -4,13 +4,7 @@ sidebar_position: 6
 
 # Hiding the Social badge
 
-:::info
-
-This feature is only available with a [Social Pro](https://socialwp.io/#pricing) subscription.
-
-:::info
-
-To give you more control over the appearance of your page, our Pro plan offers the option to remove the Social badge that appears at the bottom of the page.
+To give you more control over the appearance of your page, we offer the option to remove the Social badge that appears at the bottom of the page.
 
 ## Steps
 
